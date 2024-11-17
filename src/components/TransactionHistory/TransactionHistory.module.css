@@ -1,0 +1,32 @@
+table {
+    width: 100%; /* Встановлюємо ширину на 100%, щоб вона адаптувалась до доступного простору */
+    max-width: 800px; /* Встановлюємо максимальну ширину таблиці */
+    margin: 0 auto; /* Центруємо таблицю */
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #0c0b0b; 
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #0c0b0b; 
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  td {
+    border-bottom: 1px solid #ddd;
+  }
+  

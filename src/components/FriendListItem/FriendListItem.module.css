@@ -1,0 +1,28 @@
+.friendItem {
+    display: flex; /* Розташовуємо елементи всередині кожної картки в рядок */
+    flex-direction: column; /* Встановлюємо вертикальне вирівнювання елементів (вміст картки) */
+    align-items: center; /* Вирівнюємо елементи по горизонталі */
+    justify-content: center; /* Центруємо елементи по вертикалі */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 80px; /* Встановлюємо ширину картки */
+    border: 2px solid #0c0b0b;
+  }
+  
+  .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-bottom: 10px; /* Відступ між аватаром і текстом */
+  }
+  
+  .online {
+    color: green;
+  }
+  
+  .offline {
+    color: red;
+  }
+  
